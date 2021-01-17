@@ -8,7 +8,14 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Wanneer je de volledige array logt zie je alle nieuwe waardes
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
+console.log("Opdracht 1")
+const lenghtOfArray = names.length;
 
+for (let i = 0; i <= lenghtOfArray - 1; i = i + 1) {
+    names[i] = names[i] + "je";
+    console.log("index= "+i+"    waarde= "+names[i]);
+}
+console.log(names)
 
 // --------------------------
 // Opdracht 2
@@ -19,8 +26,15 @@ const numbers = [2, 4, 5, 29, 38];
 // Verander de waardes van de array dusdanig dat iedere waarde met 3 vermenigvuldigd wordt
 // Wanneer je de volledige array logt zie je alle nieuwe waardes
 // console.log(numbers) geeft: [ 6, 12, 15, 87, 114 ];
+console.log("Opdracht 2")
+const lenghtOfArray1 = numbers.length;
 
+for (let i = 0; i <= lenghtOfArray1 - 1; i = i + 1) {
+    numbers[i] = numbers[i] * 3;
+    console.log("index= "+i+"    waarde= "+numbers[i]);
+}
 
+console.log(numbers)
 
 // --------------------------
 // Opdracht 3
@@ -32,4 +46,14 @@ const figures = [4, 6, 12, 34, 1];
 // Wanneer je de volledige array logt zie je alle nieuwe waardes
 // console.log(figures) geeft: [ 7, 9, 15, 37, 4 ]
 
+console.log("Opdracht 3")
+const lenghtOfArray2 = figures.length;
+
+for (let i = 0; i <= lenghtOfArray2 - 1; i = i + 1) {
+    // console.log(figures[i]);
+    figures[i] = figures[i] + 3;
+    console.log("index= "+i+"    waarde= "+figures[i]);
+}
+
+console.log(figures)
 
